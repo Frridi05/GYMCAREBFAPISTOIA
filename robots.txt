@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://frridi05.github.io/sitemap.xml
