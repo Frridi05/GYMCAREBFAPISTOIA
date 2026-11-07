@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ti richiamiamo noi — GymCare BFA</title><meta name="description" content="Lasciaci nome e numero: ti contattiamo noi nella fascia oraria che preferisci.">
+<link rel="canonical" href="https://gymcarebfa.com/ricontatto.html"><meta name="theme-color" content="#f7fafb">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="richieste.css"></head><body>
+<header><a href="index.html" aria-label="GymCare, torna alla home"><img src="logo.png" alt="GymCare" width="600" height="300"></a>
+<div class="l"><a href="index.html">← Home</a><a href="https://wa.me/393883053433">WhatsApp</a></div></header>
+<nav class="tabs" aria-label="Tipo di richiesta"><a href="appuntamento.html">Prenota un appuntamento</a><a href="informazioni.html">Richiedi informazioni</a><a href="preventivo.html">Richiedi un preventivo</a><a href="registrazione.html">Registrati a un servizio</a><a href="ricontatto.html" aria-current="page">Ti richiamiamo noi</a></nav>
+<main><div class="lft"><h1>Ti richiamiamo noi</h1><p class="lead">Lasciaci nome e numero: ti contattiamo noi nella fascia oraria che preferisci.</p>
+<ul class="chk"><li>Ricontatto entro 24/48 ore</li><li>Solo 3 campi obbligatori</li><li>Nessun impegno</li></ul>
+<p class="alt">Altre richieste: <a href="appuntamento.html">Prenota un appuntamento</a> · <a href="informazioni.html">Richiedi informazioni</a> · <a href="preventivo.html">Richiedi un preventivo</a> · <a href="registrazione.html">Registrati a un servizio</a></p></div>
+<div>
+<div class="card"><i></i><i></i><i></i><i></i>
+<noscript><p class="err">Per inviare il modulo serve JavaScript. Scrivici su <a href="https://wa.me/393883053433"><u>WhatsApp</u></a> o a gymcarebfa@gmail.com.</p></noscript>
+<form method="POST" novalidate>
+<input type="hidden" name="subject" value="[GymCare sito] Ti richiamiamo noi"><input type="hidden" name="from_name" value="Sito GymCare"><input type="hidden" name="tipo_richiesta" value="Ti richiamiamo noi"><input type="hidden" name="riferimento" value="" data-l="Riferimento">
+<input class="hp" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="f"><label for="nome" class="req">Nome e cognome</label><input id="nome" name="nome" type="text" data-l="Nome e cognome" required autocomplete="name" placeholder=""></div><div class="f"><label for="telefono" class="req">Telefono</label><input id="telefono" name="telefono" type="tel" data-l="Telefono" required autocomplete="tel" placeholder=""></div><div class="f"><label for="fascia" class="req">Quando ti va bene?</label><select id="fascia" name="fascia" data-l="Quando ti va bene?" required><option value="">Seleziona…</option><option>Mattina (8–13)</option><option>Pomeriggio (13–18)</option><option>Indifferente</option></select></div><div class="f"><label for="canale" class="req">Come preferisci essere contattato?</label><select id="canale" name="canale" data-l="Come preferisci essere contattato?" required><option value="">Seleziona…</option><option>Telefonata</option><option>WhatsApp</option><option>Email</option></select></div><div class="f"><label for="email" class="">Email</label><input id="email" name="email" type="email" data-l="Email" autocomplete="email" placeholder=""><div class="f-h hint">Facoltativa, serve se scegli l’email</div></div><div class="f"><label for="struttura" class="">Palestra / struttura</label><input id="struttura" name="struttura" type="text" data-l="Palestra / struttura" autocomplete="organization" placeholder=""></div><div class="f full"><label for="motivo" class="">Motivo (facoltativo)</label><textarea id="motivo" name="motivo" data-l="Motivo (facoltativo)" placeholder=""></textarea></div>
+<div class="f full"><label class="consent"><input type="checkbox" name="privacy" value="accettata" required>Ho letto l’<a href="privacy.html" target="_blank" rel="noopener"><u>informativa privacy</u></a> e acconsento al trattamento dei dati per rispondere alla mia richiesta.</label></div>
+<div class="err" id="err" role="alert" tabindex="-1" hidden><b>Invio non riuscito.</b> I tuoi dati non sono stati inviati. Riprova tra poco, oppure scrivici su <a href="https://wa.me/393883053433"><u>WhatsApp</u></a> o a <a href="mailto:gymcarebfa@gmail.com"><u>gymcarebfa@gmail.com</u></a>.</div>
+<div class="f full"><button class="btn" type="submit">Richiedi di essere contattato</button></div>
+</form></div>
+<section class="card ok" id="ok" role="status" tabindex="-1" hidden><i></i><i></i><i></i><i></i>
+<div class="mk" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0e0f14" stroke-width="3"><path d="M4 12.5l5 5L20 6.5"/></svg></div>
+<h2>Richiesta di ricontatto ricevuta</h2><div class="ref">Riferimento: <b></b></div>
+<p>Abbiamo ricevuto i tuoi dati. Ti contattiamo entro 24/48 ore, nella fascia oraria che hai indicato.</p><p>Conserva il riferimento: se ci scrivi, citalo. Qui sotto trovi il riepilogo di quanto ci hai inviato.</p>
+<dl class="rec" id="rec"></dl>
+<p>Hai urgenza? Chiamaci o scrivici su WhatsApp al <b>+39 388 305 3433</b> (lun–ven 8:00–18:00).</p>
+<div class="acts"><a class="btn" href="index.html">Torna al sito</a><button class="btn o" id="print" type="button">Stampa riepilogo</button><button class="btn o" id="again" type="button">Invia un’altra richiesta</button></div></section>
+</div></main>
+<footer><span>© 2026 GymCare di Frridi Basit — Ditta individuale</span><span>P.IVA IT 04267870360 · PEC: gymcarebfa@pec.it · <a href="privacy.html"><u>Privacy e cookie</u></a> · <a href="#" data-cookie-reset><u>Gestisci cookie</u></a></span></footer>
+<script src="sito.js" defer></script><script src="richieste.js"></script></body></html>
